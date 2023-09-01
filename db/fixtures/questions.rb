@@ -6,5 +6,6 @@ csv.each do |row|
   Question.seed do |s|
   s.question = row[0]
   s.answer = row[1]
+  s.comment = row[2]
  end
 end
