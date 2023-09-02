@@ -1,12 +1,12 @@
 databases:
-  - name: dpg-cjpb3h8jbais73864r50-a
-    databaseName: dpg-cjpb3h8jbais73864r50-a
+  - name: posgre
+    databaseName: posgre
     user: ekoki
     region: singapore
 
 services:
   - type: web
-    name: accounting-api-posgre
+    name: posgre
     env: ruby
     region: singapore
     buildCommand: "./bin/render-build.sh"
@@ -14,7 +14,7 @@ services:
     envVars:
       - key: <%= ENV['DATABASE_URL'] %>
         fromDatabase:
-          name: dpg-cjpb3h8jbais73864r50-a
+          name: posgre
           property: connectionString
       - key: <%= ENV['RAILS_MASTER_KEY'] %>
         sync: false
