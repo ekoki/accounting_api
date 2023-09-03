@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: posgre
-  username: ekoki
+  database: accountting_api_production
+  username: accountting_api
   password: <%= ENV["ACCOUNTTING_API_DATABASE_PASSWORD"] %>
