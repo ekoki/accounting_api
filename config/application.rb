@@ -37,6 +37,6 @@ module AccounttingApi
     config.api_only = true
 
     # デプロイするサービスのホストを追加する
-+   config.hosts << 'accounting-api-fh6r.onrender.com'
+    config.hosts << 'accounting-api-fh6r.onrender.com'
   end
 end
