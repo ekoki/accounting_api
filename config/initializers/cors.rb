@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3000'
+    origins 'http://localhost:3000', 'https://accounting-web-v3ad.onrender.com'
 
     resource '*',
         headers: :any,
