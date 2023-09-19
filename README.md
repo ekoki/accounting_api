@@ -1,24 +1,6 @@
-# README
+# 作成した背景
+ポートフォリオ「にどねんね」作成中、フロントエンドの技術力が足りないと感じ、ポートフォリオ作成後フロントエンドの技術であるJavaScriptとReactの勉強を開始しました。基礎的な勉強をした後、当該技術を用いてアプリを作成したいと思いました。
+また、アプリの作成にあたり会計の一問一答アプリを作成した理由については、会計について学生時代から勉強しており、会計の基礎的な知識を一問一答という形で出題することによって、会計を勉強することへの取っ掛かりや勉強中の人の助けになれば良いなと思い作成しました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 使用技術
+React、Ruby on Rails
